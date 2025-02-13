@@ -1,6 +1,6 @@
-class MensajeTexto: Notificable{
+class MensajeTexto(val nombrePersona: String): Notificable{
 
     override fun enviarNotificacion() {
-        TODO("Not yet implemented")
+        println("Tienes una notificacion de carglass")
     }
 }
